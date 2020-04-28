@@ -1,4 +1,4 @@
-export function sum(array) {
+function sum(array) {
   let result = 0;
 
   if (array != null && array.length) {
@@ -11,3 +11,5 @@ export function sum(array) {
 
   return result;
 }
+
+module.exports = sum;
